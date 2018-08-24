@@ -1,0 +1,20 @@
+PODS:
+  - GRDB.swift (3.2.0)
+  - Nuke (7.3)
+
+DEPENDENCIES:
+  - GRDB.swift (= 3.2)
+  - Nuke (= 7.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GRDB.swift
+    - Nuke
+
+SPEC CHECKSUMS:
+  GRDB.swift: c5bb04b25a9931fec937920e913787e45f96124f
+  Nuke: 3680b7186b18f84a5e9e283bfce4357bfd70fdf9
+
+PODFILE CHECKSUM: 70cade53af494df389ddff4de30f3d726568c3a7
+
+COCOAPODS: 1.5.3
