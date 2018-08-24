@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Iyt-4y-w7Y">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--求人一覧-->
+        <scene sceneID="1Os-Pj-jOT">
+            <objects>
+                <viewController storyboardIdentifier="JobListViewController" id="Iyt-4y-w7Y" customClass="JobListViewController" customModule="ios_drawer_menu_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TCt-Ks-8GX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pH0-Gt-vSh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Iyt-4y-w7Y" id="Aax-b3-Of5"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="pH0-Gt-vSh" firstAttribute="top" secondItem="ydV-Hg-Y2A" secondAttribute="top" id="680-ve-X2g"/>
+                            <constraint firstItem="pH0-Gt-vSh" firstAttribute="trailing" secondItem="ydV-Hg-Y2A" secondAttribute="trailing" id="DM1-Jb-uQR"/>
+                            <constraint firstItem="pH0-Gt-vSh" firstAttribute="leading" secondItem="ydV-Hg-Y2A" secondAttribute="leading" id="LZy-3X-Z21"/>
+                            <constraint firstItem="pH0-Gt-vSh" firstAttribute="bottom" secondItem="ydV-Hg-Y2A" secondAttribute="bottom" id="kfS-Fu-bB4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ydV-Hg-Y2A"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="7Zr-h3-g71" appends="YES" id="ro7-cR-vj6"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="求人一覧" id="wdQ-2K-hEt">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" image="hamburger_menu" id="qeU-C5-IVC">
+                            <connections>
+                                <action selector="didTapMenuButton:" destination="Iyt-4y-w7Y" id="7hp-4W-o6G"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="pH0-Gt-vSh" id="U9S-Zb-mAM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XQh-Wr-8li" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="7Zr-h3-g71">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="screenEdgePanGesture:" destination="Iyt-4y-w7Y" id="o4K-HR-VRt"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="244" y="-3.1484257871064472"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hamburger_menu" width="24" height="24"/>
+    </resources>
+</document>

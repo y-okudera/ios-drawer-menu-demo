@@ -11,12 +11,34 @@
 		6AABDD20A20F472F90336050 /* Pods_ios_drawer_menu_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CBB92596C6889FA7DEBB45 /* Pods_ios_drawer_menu_demoTests.framework */; };
 		6B891A1854A7EDB2CF93198D /* Pods_ios_drawer_menu_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FC3861D86C753C1DD4750B /* Pods_ios_drawer_menu_demoUITests.framework */; };
 		B62EE7C62130165100A5763B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EE7C52130165100A5763B /* AppDelegate.swift */; };
-		B62EE7C82130165100A5763B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EE7C72130165100A5763B /* ViewController.swift */; };
-		B62EE7CB2130165200A5763B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62EE7C92130165200A5763B /* Main.storyboard */; };
 		B62EE7CD2130165300A5763B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62EE7CC2130165300A5763B /* Assets.xcassets */; };
 		B62EE7D02130165300A5763B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62EE7CE2130165300A5763B /* LaunchScreen.storyboard */; };
 		B62EE7DB2130165300A5763B /* ios_drawer_menu_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EE7DA2130165300A5763B /* ios_drawer_menu_demoTests.swift */; };
 		B62EE7E62130165300A5763B /* ios_drawer_menu_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EE7E52130165300A5763B /* ios_drawer_menu_demoUITests.swift */; };
+		B668116A21312E190099799D /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668116921312E190099799D /* Translator.swift */; };
+		B668116C21312E330099799D /* JobTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668116B21312E330099799D /* JobTranslator.swift */; };
+		B6681177213150110099799D /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6681176213150110099799D /* JobModel.swift */; };
+		B699A3552130264E0073584E /* JobMasterDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A3542130264E0073584E /* JobMasterDataStore.swift */; };
+		B699A3572130268B0073584E /* JobMasterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A3562130268B0073584E /* JobMasterEntity.swift */; };
+		B699A35A213040780073584E /* GRDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A359213040780073584E /* GRDBHelper.swift */; };
+		B699A35C213040C70073584E /* String+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A35B213040C70073584E /* String+Path.swift */; };
+		B699A35E213043C70073584E /* job.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = B699A35D213043C70073584E /* job.sqlite3 */; };
+		B699A36021304A460073584E /* JobListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A35F21304A460073584E /* JobListRepository.swift */; };
+		B699A36221304FF70073584E /* JobListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A36121304FF70073584E /* JobListUseCase.swift */; };
+		B699A37221305BA80073584E /* UIImageView+Nuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A37121305BA80073584E /* UIImageView+Nuke.swift */; };
+		B699A37421305F430073584E /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A37321305F430073584E /* JobListViewController.swift */; };
+		B699A37621305F4F0073584E /* JobListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699A37521305F4F0073584E /* JobListViewController.storyboard */; };
+		B699A378213061B90073584E /* JobListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A377213061B90073584E /* JobListPresenter.swift */; };
+		B699A37D213066F20073584E /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A37B213066F20073584E /* JobCell.swift */; };
+		B699A37E213066F20073584E /* JobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B699A37C213066F20073584E /* JobCell.xib */; };
+		B699A381213068570073584E /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A380213068570073584E /* Interactor.swift */; };
+		B699A3832130686B0073584E /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A3822130686B0073584E /* MenuHelper.swift */; };
+		B699A3852130689C0073584E /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A3842130689C0073584E /* PresentMenuAnimator.swift */; };
+		B699A387213068B50073584E /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A386213068B50073584E /* DismissMenuAnimator.swift */; };
+		B699A38921306AC80073584E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A38821306AC80073584E /* MenuViewController.swift */; };
+		B699A38B21306AD40073584E /* MenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699A38A21306AD40073584E /* MenuViewController.storyboard */; };
+		B699A38E2130DC8A0073584E /* JobListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A38D2130DC8A0073584E /* JobListBuilder.swift */; };
+		B699A3912130E00C0073584E /* UIViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699A3902130E00C0073584E /* UIViewControllerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +69,6 @@
 		82BB1A52D7ADB872DB7246AE /* Pods-ios-drawer-menu-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-drawer-menu-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-drawer-menu-demo/Pods-ios-drawer-menu-demo.release.xcconfig"; sourceTree = "<group>"; };
 		B62EE7C22130165100A5763B /* ios-drawer-menu-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-drawer-menu-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62EE7C52130165100A5763B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B62EE7C72130165100A5763B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B62EE7CA2130165200A5763B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B62EE7CC2130165300A5763B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62EE7CF2130165300A5763B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62EE7D12130165300A5763B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +78,30 @@
 		B62EE7E12130165300A5763B /* ios-drawer-menu-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-drawer-menu-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62EE7E52130165300A5763B /* ios_drawer_menu_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_drawer_menu_demoUITests.swift; sourceTree = "<group>"; };
 		B62EE7E72130165300A5763B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B668116921312E190099799D /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		B668116B21312E330099799D /* JobTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTranslator.swift; sourceTree = "<group>"; };
+		B6681176213150110099799D /* JobModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
+		B699A3542130264E0073584E /* JobMasterDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMasterDataStore.swift; sourceTree = "<group>"; };
+		B699A3562130268B0073584E /* JobMasterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMasterEntity.swift; sourceTree = "<group>"; };
+		B699A359213040780073584E /* GRDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDBHelper.swift; sourceTree = "<group>"; };
+		B699A35B213040C70073584E /* String+Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Path.swift"; sourceTree = "<group>"; };
+		B699A35D213043C70073584E /* job.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = job.sqlite3; sourceTree = "<group>"; };
+		B699A35F21304A460073584E /* JobListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListRepository.swift; sourceTree = "<group>"; };
+		B699A36121304FF70073584E /* JobListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListUseCase.swift; sourceTree = "<group>"; };
+		B699A37121305BA80073584E /* UIImageView+Nuke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Nuke.swift"; sourceTree = "<group>"; };
+		B699A37321305F430073584E /* JobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListViewController.swift; sourceTree = "<group>"; };
+		B699A37521305F4F0073584E /* JobListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JobListViewController.storyboard; sourceTree = "<group>"; };
+		B699A377213061B90073584E /* JobListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListPresenter.swift; sourceTree = "<group>"; };
+		B699A37B213066F20073584E /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		B699A37C213066F20073584E /* JobCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobCell.xib; sourceTree = "<group>"; };
+		B699A380213068570073584E /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		B699A3822130686B0073584E /* MenuHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHelper.swift; sourceTree = "<group>"; };
+		B699A3842130689C0073584E /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentMenuAnimator.swift; sourceTree = "<group>"; };
+		B699A386213068B50073584E /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissMenuAnimator.swift; sourceTree = "<group>"; };
+		B699A38821306AC80073584E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B699A38A21306AD40073584E /* MenuViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuViewController.storyboard; sourceTree = "<group>"; };
+		B699A38D2130DC8A0073584E /* JobListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListBuilder.swift; sourceTree = "<group>"; };
+		B699A3902130E00C0073584E /* UIViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerBuilder.swift; sourceTree = "<group>"; };
 		DD5325E7E77E4BA8DB574533 /* Pods_ios_drawer_menu_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_drawer_menu_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,13 +182,11 @@
 			isa = PBXGroup;
 			children = (
 				B699A342213020300073584E /* Extension */,
-				B699A343213020370073584E /* Utility */,
+				B699A38C2130DC3E0073584E /* Application */,
 				B699A344213020480073584E /* Data */,
 				B699A3452130204D0073584E /* Domain */,
 				B699A346213020570073584E /* Presentation */,
 				B699A347213020630073584E /* Others */,
-				B62EE7C72130165100A5763B /* ViewController.swift */,
-				B62EE7C92130165200A5763B /* Main.storyboard */,
 			);
 			path = "ios-drawer-menu-demo";
 			sourceTree = "<group>";
@@ -167,23 +209,36 @@
 			path = "ios-drawer-menu-demoUITests";
 			sourceTree = "<group>";
 		};
+		B668116621312DDE0099799D /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				B668116921312E190099799D /* Translator.swift */,
+				B668116B21312E330099799D /* JobTranslator.swift */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		B6681175213150110099799D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6681176213150110099799D /* JobModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B699A342213020300073584E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B699A36D2130541D0073584E /* Foundation */,
+				B699A36E2130542E0073584E /* UIKit */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		B699A343213020370073584E /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 		B699A344213020480073584E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B699A3582130406F0073584E /* Utility */,
 				B699A348213020870073584E /* DataStore */,
 				B699A3492130208F0073584E /* Entity */,
 			);
@@ -195,7 +250,7 @@
 			children = (
 				B699A34B213020A40073584E /* Repository */,
 				B699A34C213020AB0073584E /* UseCase */,
-				B699A34D213020B40073584E /* Model */,
+				B6681175213150110099799D /* Model */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -215,6 +270,7 @@
 				B62EE7C52130165100A5763B /* AppDelegate.swift */,
 				B62EE7CC2130165300A5763B /* Assets.xcassets */,
 				B62EE7D12130165300A5763B /* Info.plist */,
+				B699A35D213043C70073584E /* job.sqlite3 */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -222,6 +278,7 @@
 		B699A348213020870073584E /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
+				B699A3542130264E0073584E /* JobMasterDataStore.swift */,
 			);
 			path = DataStore;
 			sourceTree = "<group>";
@@ -229,6 +286,7 @@
 		B699A3492130208F0073584E /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				B699A3562130268B0073584E /* JobMasterEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -236,6 +294,7 @@
 		B699A34B213020A40073584E /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				B699A35F21304A460073584E /* JobListRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -243,16 +302,10 @@
 		B699A34C213020AB0073584E /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
-				B699A352213021110073584E /* Translator */,
+				B699A36121304FF70073584E /* JobListUseCase.swift */,
+				B668116621312DDE0099799D /* Translator */,
 			);
 			path = UseCase;
-			sourceTree = "<group>";
-		};
-		B699A34D213020B40073584E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		B699A34E213020D40073584E /* UI */ = {
@@ -267,6 +320,7 @@
 		B699A34F213020D70073584E /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				B699A377213061B90073584E /* JobListPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -274,6 +328,9 @@
 		B699A350213020E40073584E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B699A38F2130DFFD0073584E /* Protocol */,
+				B699A37321305F430073584E /* JobListViewController.swift */,
+				B699A38821306AC80073584E /* MenuViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -281,16 +338,81 @@
 		B699A351213020EC0073584E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B62EE7CE2130165300A5763B /* LaunchScreen.storyboard */,
+				B699A379213066C30073584E /* Storyboard */,
+				B699A37A213066D70073584E /* TableViewCell */,
+				B699A37F213068350073584E /* DrawerMenu */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		B699A352213021110073584E /* Translator */ = {
+		B699A3582130406F0073584E /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				B699A359213040780073584E /* GRDBHelper.swift */,
 			);
-			path = Translator;
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B699A36D2130541D0073584E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B699A35B213040C70073584E /* String+Path.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B699A36E2130542E0073584E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B699A37121305BA80073584E /* UIImageView+Nuke.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B699A379213066C30073584E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B62EE7CE2130165300A5763B /* LaunchScreen.storyboard */,
+				B699A37521305F4F0073584E /* JobListViewController.storyboard */,
+				B699A38A21306AD40073584E /* MenuViewController.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B699A37A213066D70073584E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B699A37B213066F20073584E /* JobCell.swift */,
+				B699A37C213066F20073584E /* JobCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B699A37F213068350073584E /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B699A380213068570073584E /* Interactor.swift */,
+				B699A3822130686B0073584E /* MenuHelper.swift */,
+				B699A3842130689C0073584E /* PresentMenuAnimator.swift */,
+				B699A386213068B50073584E /* DismissMenuAnimator.swift */,
+			);
+			path = DrawerMenu;
+			sourceTree = "<group>";
+		};
+		B699A38C2130DC3E0073584E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B699A38D2130DC8A0073584E /* JobListBuilder.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B699A38F2130DFFD0073584E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B699A3902130E00C0073584E /* UIViewControllerBuilder.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,8 +524,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62EE7D02130165300A5763B /* LaunchScreen.storyboard in Resources */,
+				B699A38B21306AD40073584E /* MenuViewController.storyboard in Resources */,
+				B699A37621305F4F0073584E /* JobListViewController.storyboard in Resources */,
+				B699A35E213043C70073584E /* job.sqlite3 in Resources */,
+				B699A37E213066F20073584E /* JobCell.xib in Resources */,
 				B62EE7CD2130165300A5763B /* Assets.xcassets in Resources */,
-				B62EE7CB2130165200A5763B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,8 +630,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B62EE7C82130165100A5763B /* ViewController.swift in Sources */,
+				B699A387213068B50073584E /* DismissMenuAnimator.swift in Sources */,
+				B699A378213061B90073584E /* JobListPresenter.swift in Sources */,
+				B699A3572130268B0073584E /* JobMasterEntity.swift in Sources */,
+				B699A3852130689C0073584E /* PresentMenuAnimator.swift in Sources */,
+				B699A37421305F430073584E /* JobListViewController.swift in Sources */,
 				B62EE7C62130165100A5763B /* AppDelegate.swift in Sources */,
+				B699A35A213040780073584E /* GRDBHelper.swift in Sources */,
+				B668116A21312E190099799D /* Translator.swift in Sources */,
+				B699A3832130686B0073584E /* MenuHelper.swift in Sources */,
+				B699A3912130E00C0073584E /* UIViewControllerBuilder.swift in Sources */,
+				B699A38E2130DC8A0073584E /* JobListBuilder.swift in Sources */,
+				B699A3552130264E0073584E /* JobMasterDataStore.swift in Sources */,
+				B699A37D213066F20073584E /* JobCell.swift in Sources */,
+				B699A38921306AC80073584E /* MenuViewController.swift in Sources */,
+				B699A381213068570073584E /* Interactor.swift in Sources */,
+				B699A35C213040C70073584E /* String+Path.swift in Sources */,
+				B699A36021304A460073584E /* JobListRepository.swift in Sources */,
+				B699A36221304FF70073584E /* JobListUseCase.swift in Sources */,
+				B699A37221305BA80073584E /* UIImageView+Nuke.swift in Sources */,
+				B668116C21312E330099799D /* JobTranslator.swift in Sources */,
+				B6681177213150110099799D /* JobModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,14 +686,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B62EE7C92130165200A5763B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B62EE7CA2130165200A5763B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B62EE7CE2130165300A5763B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -684,7 +820,10 @@
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = "$(SRCROOT)/ios-drawer-menu-demo/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-drawer-menu-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -701,7 +840,10 @@
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = "$(SRCROOT)/ios-drawer-menu-demo/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-drawer-menu-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -718,7 +860,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = "ios-drawer-menu-demoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-drawer-menu-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -736,7 +882,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = "ios-drawer-menu-demoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-drawer-menu-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -753,7 +903,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = "ios-drawer-menu-demoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-drawer-menu-demoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -770,7 +924,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = "ios-drawer-menu-demoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.yuoku.ios-drawer-menu-demoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

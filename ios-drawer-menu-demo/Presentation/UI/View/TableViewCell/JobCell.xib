@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JobCell" rowHeight="190" id="KGk-i7-Jjw" customClass="JobCell" customModule="ios_drawer_menu_demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="189.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="株式会社スマートテック・ベンチャーズ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTq-pS-weP">
+                        <rect key="frame" x="35" y="5" width="269" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="BN0-lp-omo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_circle" translatesAutoresizingMaskIntoConstraints="NO" id="GGB-mg-C0B">
+                        <rect key="frame" x="16" y="5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="dib-al-QmT"/>
+                            <constraint firstAttribute="height" constant="15" id="e5G-PI-cVp"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4gG-Kb-2I0">
+                        <rect key="frame" x="16" y="28" width="150" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="HjA-ZI-17O"/>
+                            <constraint firstAttribute="height" constant="100" id="s6H-ff-lbg"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_location" translatesAutoresizingMaskIntoConstraints="NO" id="jaf-YE-jh4">
+                        <rect key="frame" x="170" y="27.5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="X03-DR-Jn3"/>
+                            <constraint firstAttribute="height" constant="15" id="uCX-X3-xgl"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_yen" translatesAutoresizingMaskIntoConstraints="NO" id="fsr-bF-CYh">
+                        <rect key="frame" x="170" y="65.5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="FED-AI-3Oy"/>
+                            <constraint firstAttribute="height" constant="15" id="XJi-8a-WEz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boG-WK-t9C">
+                        <rect key="frame" x="189" y="23" width="115" height="24"/>
+                        <string key="text">[勤務地] xxxxxaaa
+                            [面接地] aaa</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="月給19万円〜50万円" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXy-aJ-DUy">
+                        <rect key="frame" x="189" y="67" width="115" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="若手社員が多いので、社員同士も、アルバイトも仲良しでアットホームな雰囲気。お客さま先ではびしっと！メリハリをつけて働いています。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOj-fE-7TT">
+                        <rect key="frame" x="16" y="136" width="288" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="boG-WK-t9C" firstAttribute="top" secondItem="ZTq-pS-weP" secondAttribute="bottom" constant="3" id="9jp-zS-HYa"/>
+                    <constraint firstItem="GGB-mg-C0B" firstAttribute="top" secondItem="ZTq-pS-weP" secondAttribute="top" id="Fqx-KV-2Gm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pXy-aJ-DUy" secondAttribute="trailing" id="GT2-KN-Xzn"/>
+                    <constraint firstItem="fsr-bF-CYh" firstAttribute="leading" secondItem="jaf-YE-jh4" secondAttribute="leading" id="HD1-2N-tSm"/>
+                    <constraint firstItem="NOj-fE-7TT" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="KmP-sG-vSN"/>
+                    <constraint firstItem="4gG-Kb-2I0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="PEt-W2-zQR"/>
+                    <constraint firstItem="jaf-YE-jh4" firstAttribute="leading" secondItem="4gG-Kb-2I0" secondAttribute="trailing" constant="4" id="Pna-2y-4Ya"/>
+                    <constraint firstItem="pXy-aJ-DUy" firstAttribute="leading" secondItem="fsr-bF-CYh" secondAttribute="trailing" constant="4" id="Rfg-Up-tIj"/>
+                    <constraint firstItem="boG-WK-t9C" firstAttribute="leading" secondItem="jaf-YE-jh4" secondAttribute="trailing" constant="4" id="Tza-fh-Zg7"/>
+                    <constraint firstItem="NOj-fE-7TT" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="U16-er-adF"/>
+                    <constraint firstItem="GGB-mg-C0B" firstAttribute="height" secondItem="ZTq-pS-weP" secondAttribute="height" id="aaj-aP-yYj"/>
+                    <constraint firstItem="4gG-Kb-2I0" firstAttribute="top" secondItem="ZTq-pS-weP" secondAttribute="bottom" constant="8" id="amE-kH-RQF"/>
+                    <constraint firstItem="NOj-fE-7TT" firstAttribute="top" secondItem="4gG-Kb-2I0" secondAttribute="bottom" constant="8" id="bTF-wt-shq"/>
+                    <constraint firstItem="boG-WK-t9C" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="cu5-rV-kR1"/>
+                    <constraint firstItem="ZTq-pS-weP" firstAttribute="leading" secondItem="GGB-mg-C0B" secondAttribute="trailing" constant="4" id="dUn-8e-utV"/>
+                    <constraint firstItem="boG-WK-t9C" firstAttribute="centerY" secondItem="jaf-YE-jh4" secondAttribute="centerY" id="fxx-zy-Z9n"/>
+                    <constraint firstItem="ZTq-pS-weP" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="pdK-gq-nvl"/>
+                    <constraint firstItem="GGB-mg-C0B" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="qKw-pg-sDb"/>
+                    <constraint firstItem="pXy-aJ-DUy" firstAttribute="top" secondItem="boG-WK-t9C" secondAttribute="bottom" constant="20" id="r1g-j0-9rX"/>
+                    <constraint firstItem="pXy-aJ-DUy" firstAttribute="centerY" secondItem="fsr-bF-CYh" secondAttribute="centerY" id="yMg-dh-jrc"/>
+                    <constraint firstItem="NOj-fE-7TT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="zQP-QA-31a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="companyNameLabel" destination="ZTq-pS-weP" id="i1S-oP-SP8"/>
+                <outlet property="jobDetailInfoLabel" destination="NOj-fE-7TT" id="NoB-0e-lcF"/>
+                <outlet property="jobImageView" destination="4gG-Kb-2I0" id="ihl-ac-oCg"/>
+                <outlet property="locationLabel" destination="boG-WK-t9C" id="wyA-d3-Z1V"/>
+                <outlet property="salaryLabel" destination="pXy-aJ-DUy" id="PL3-BE-1mj"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="-1"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_circle" width="256" height="256"/>
+        <image name="icon_location" width="256" height="256"/>
+        <image name="icon_yen" width="256" height="256"/>
+    </resources>
+</document>
